@@ -3,7 +3,6 @@ import {
   createItinerary,
   getAllItinerary,
   getSingleItinerary,
-  updateItinerary,
   saveItinerary,
   deleteItinerary,
 } from "../controllers/itinerary.controller.js";
