@@ -1,6 +1,6 @@
 import heroDesktop from "../assets/mdHero.jpg";
 import heroMobile from "../assets/smHero.jpg";
-import AboutBee from "../assets/AboutBee.png";
+import AboutBee from "../assets/aboutBee.png";
 import explore from "../assets/explore.gif";
 import explore1 from "../assets/explore1.jpg";
 import explore2 from "../assets/explore2.jpg";
