@@ -13,7 +13,7 @@ export default function Dashboard() {
 
   async function fetchSaved() {
     try {
-      const res = await axios.get("http://localhost:5500/api/itinerary/", {
+      const res = await axios.get("https://travelbee-ai-planner.onrender.com/api/itinerary/", {
         headers: {
           Authorization: `Bearer ${localStorage.getItem("token")}`,
         },
@@ -27,7 +27,7 @@ export default function Dashboard() {
 
   async function handleDelete(id) {
     try {
-      await axios.delete(`http://localhost:5500/api/itinerary/${id}`, {
+      await axios.delete(`https://travelbee-ai-planner.onrender.com/api/itinerary/${id}`, {
         headers: {
           Authorization: `Bearer ${localStorage.getItem("token")}`,
         },

@@ -19,7 +19,7 @@ export default function SignUp() {
     };
 
     let response = await axios.post(
-      "http://localhost:5500/api/auth/signUp",
+      "https://travelbee-ai-planner.onrender.com/api/auth/signUp",
       Data,
     );
 

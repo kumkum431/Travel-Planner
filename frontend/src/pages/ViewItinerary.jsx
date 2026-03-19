@@ -12,7 +12,7 @@ export default function ViewItinerary() {
 
   async function fetchItinerary() {
     try {
-      const res = await axios.get(`http://localhost:5500/api/itinerary/${id}`, {
+      const res = await axios.get(`https://travelbee-ai-planner.onrender.com/api/itinerary/${id}`, {
         headers: {
           Authorization: `Bearer ${localStorage.getItem("token")}`,
         },
@@ -36,7 +36,7 @@ export default function ViewItinerary() {
   async function handleSave() {
     try {
       await axios.patch(
-        `http://localhost:5500/api/itinerary/save/${id}`,
+        `https://travelbee-ai-planner.onrender.com/api/itinerary/save/${id}`,
         {},
         {
           headers: {

@@ -39,7 +39,7 @@ export default function CreateItinerary() {
 
     try {
       const res = await axios.post(
-        "http://localhost:5500/api/itinerary/",
+        "https://travelbee-ai-planner.onrender.com/api/itinerary/",
         data,
         {
           headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },

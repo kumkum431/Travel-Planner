@@ -18,7 +18,7 @@ export default function Login() {
     };
 
     let response = await axios.post(
-      "http://localhost:5500/api/auth/signIn",
+      "https://travelbee-ai-planner.onrender.com/api/auth/signIn",
       Data,
     );
     localStorage.setItem("token", response.data.token);
