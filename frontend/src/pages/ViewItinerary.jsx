@@ -36,7 +36,7 @@ export default function ViewItinerary() {
   async function handleSave() {
     try {
       await axios.patch(
-        `https://travelbee-ai-planner.onrender.com/api/itinerary/save/${id}`,
+        `https://travelbee-ai-planner.onrender.com/api/itinerary/${id}`,
         {},
         {
           headers: {
